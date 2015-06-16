@@ -12,5 +12,5 @@ module.exports = function (year) {
 		if (leapYear(year)) {
 			return year;
 		}
-	} while (year--)
+	} while (year--);
 };
