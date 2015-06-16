@@ -1,0 +1,34 @@
+{
+  "name": "last-leap-year",
+  "version": "0.0.0",
+  "description": "Get the last leap year since a specific date",
+  "license": "MIT",
+  "repository": "arthurvr/last-leap-year",
+  "author": {
+    "name": "Arthur Verschaeve",
+    "email": "contact@arthurverschaeve.be",
+    "url": "arthurverschaeve.be"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "date",
+    "year",
+    "leap",
+    "time",
+    "last"
+  ],
+  "dependencies": {
+    "leap-year": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
