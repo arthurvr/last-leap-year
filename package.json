@@ -1,6 +1,6 @@
 {
   "name": "last-leap-year",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get the last leap year since a specific date",
   "license": "MIT",
   "repository": "arthurvr/last-leap-year",
