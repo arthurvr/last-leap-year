@@ -18,15 +18,20 @@
   "files": [
     "index.js"
   ],
+  "bin": "cli.js",
   "keywords": [
     "date",
     "year",
     "leap",
     "time",
-    "last"
+    "last",
+    "cli",
+    "bin",
+    "cli-app"
   ],
   "dependencies": {
-    "leap-year": "^1.0.0"
+    "leap-year": "^1.0.0",
+    "meow": "^3.3.0"
   },
   "devDependencies": {
     "mocha": "*"
