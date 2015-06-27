@@ -43,6 +43,27 @@ Type: instance of `Date`
 Default: `new Date()`
 
 
+## CLI
+
+```
+$ npm install --global last-leap-year
+```
+
+```
+$ last-leap-year --help
+
+  Usage
+    $ last-leap-year [input]
+
+  Examples
+    $ last-leap-year
+    2012
+
+    $ last-leap-year 2010
+    2008
+```
+
+
 ## License
 
 MIT © [Arthur Verschaeve](http://arthurverschaeve.be)
