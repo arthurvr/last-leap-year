@@ -12,6 +12,5 @@ it('should handle passing a year', function () {
 });
 
 it('should default to taking the current timestamp', function () {
-	// one day I'll need to fix this assertion
 	assert.strictEqual(lastLeapYear(), 2012);
 });
