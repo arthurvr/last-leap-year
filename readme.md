@@ -32,7 +32,7 @@ lastLeapYear(new Date('January 1, 2007'));
 
 #### year
 
-Type: _number_  
+Type: `number`  
 Default: _Current year_
 
 ### lastLeapYear([date])
