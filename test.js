@@ -1,16 +1,22 @@
 'use strict';
-var assert = require('assert');
+var test = require('ava');
 var lastLeapYear = require('./');
 
-it('should return the last leap year', function () {
-	assert.strictEqual(lastLeapYear(new Date(-61206064203841)), 28);
-	assert.strictEqual(lastLeapYear(new Date('January 10, 2008')), 2008);
+test('should return the last leap year', function (t) {
+	t.is(lastLeapYear(new Date(-61206064203841)), 28);
+	t.is(lastLeapYear(new Date('January 10, 2008')), 2008);
+
+	t.end();
 });
 
-it('should handle passing a year', function () {
-	assert.strictEqual(lastLeapYear(2015), 2012);
+test('should handle passing a year', function (t) {
+	t.is(lastLeapYear(2015), 2012);
+
+	t.end();
 });
 
-it('should default to taking the current timestamp', function () {
-	assert.strictEqual(lastLeapYear(), 2012);
+test('should default to taking the current timestamp', function (t) {
+	t.is(lastLeapYear(), 2012);
+
+	t.end();
 });
