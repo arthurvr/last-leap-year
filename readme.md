@@ -13,7 +13,7 @@ $ npm install --save last-leap-year
 ## Usage
 
 ```js
-var lastLeapYear = require('last-leap-year');
+const lastLeapYear = require('last-leap-year');
 
 lastLeapYear();
 //=> 2012
