@@ -8,5 +8,5 @@ module.exports = function (year) {
 		year = year.getFullYear();
 	}
 	
-	return year - (year % 4);
+	return Math.floor(year / 4) * 4;
 };
