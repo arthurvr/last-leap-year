@@ -7,10 +7,6 @@ module.exports = function (year) {
 	if (year instanceof Date) {
 		year = year.getFullYear();
 	}
-
-	do {
-		if (leapYear(year)) {
-			return year;
-		}
-	} while (year--);
+	
+	return year - (year % 4);
 };
