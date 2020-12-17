@@ -1,5 +1,4 @@
 'use strict';
-var leapYear = require('leap-year');
 
 module.exports = function (year) {
 	year = year || new Date();
@@ -8,5 +7,5 @@ module.exports = function (year) {
 		year = year.getFullYear();
 	}
 	
-	return Math.floor(year / 4) * 4;
+	return Math.floor(year / 400) * 400;
 };
